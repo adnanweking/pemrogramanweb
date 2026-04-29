@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Adnan Weking</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+        }
+
+        /* Main Content */
+        main {
+            background: white;
+            padding: 40px 20px;
+            margin: 20px 0;
+        }
+
+        .profile-section {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            align-items: start;
+            margin-bottom: 40px;
+        }
+
+        .profile-image {
+            text-align: center;
+        }
+
+        .profile-image img {
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            object-fit: cover;
+            object-position: center 10%;
+        }
+
+        .profile-info h2 {
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .profile-info blockquote {
+            background-color: #f9f9f9;
+            padding: 15px 20px;
+            border-left: 4px solid #333;
+            margin: 20px 0;
+            font-style: italic;
+            color: #666;
+        }
+
+        .profile-info h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .profile-info ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .profile-info li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .profile-info li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+
+        .profile-info p {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .profile-info a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .profile-info a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .profile-section {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-image img {
+                width: 200px;
+                height: 200px;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            main {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Adnan Weking</h1>
+            <p>Program Studi Informatika</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="profile-section">
+                <!-- Profile Image -->
+                <div class="profile-image">
+                    <img src="./portfolio/WhatsApp Image 2025-04-12 at 00.24.28.jpeg" alt="Adnan Weking">
+                </div>
+
+                <!-- Profile Info -->
+                <div class="profile-info">
+                    <h2>Deskripsi Singkat</h2>
+                    
+                    <h3>Kata-kata hari ini:</h3>
+                    <blockquote>
+                        "Lakukan apapun yang membuat anda bahagia, selebihnya lupakan."
+                    </blockquote>
+
+                    <h3>Tiga Target Kuliah:</h3>
+                    <ul>
+                        <li>Lulus tepat waktu</li>
+                        <li>Banggakan orangtua</li>
+                        <li>Cari jodoh</li>
+                    </ul>
+
+                    <p>Tertarik dengan proyekku? <a href="https://github.com/adnanweking" target="_blank">Akses GitHub Saya</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Adnan Weking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
